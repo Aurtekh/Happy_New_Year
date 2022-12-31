@@ -13,6 +13,7 @@ async function genetateText() {
   }`;
   copy = generatePhrase.innerHTML;
   genetateTextCopy.style.display = 'block';
+  generatePhrase.style.display = 'block';
 }
 
 function copyText() {

@@ -1,15 +1,27 @@
+/* aladin-regular - latin */
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 * {
+  font-family: 'Hachi Maru Pop', cursive;
   margin: 0;
   padding: 0;
 }
+body {
+  background: url(./assets/img/bg.jpg) center;
+  background-attachment: fixed;
+}
 .wrapper {
   max-width: 1000px;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 .texth1 {
+  padding: 12px;
+  background: #fff;
+  border-radius: 16px;
+  border: 2px solid black;
   text-align: center;
 }
 .container {
+  margin: 40px 15px 40px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,9 +31,9 @@
 .genetateText,
 .genetateTextCopy {
   padding: 10px 20px;
-  border-radius: 8px;
+  border-radius: 16px;
   color: black;
-  font-size: 24px;
+  font-size: 26px;
   border-color: #3498db;
   box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
   -webkit-transition: all 150ms ease-in-out;
@@ -32,8 +44,13 @@
   box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 .generatephase {
+  display: none;
+  padding: 12px;
+  background: #fff;
+  border-radius: 16px;
+  border: 2px solid black;
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
 }
 .genetateTextCopy {
   display: none;
